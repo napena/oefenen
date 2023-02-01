@@ -437,6 +437,6 @@ class __TwigTemplate_07eb5fb802d906cee546a765f7c0b902 extends Template
 </article>
 </body>
 </html>
-", "@EasyAdmin/welcome.html.twig", "C:\\xampp\\htdocs\\ALA\\DIF-examen-2023-maaskantje-6\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\welcome.html.twig");
+", "@EasyAdmin/welcome.html.twig", "C:\\xampp\\htdocs\\ALA\\oefenen\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\welcome.html.twig");
     }
 }

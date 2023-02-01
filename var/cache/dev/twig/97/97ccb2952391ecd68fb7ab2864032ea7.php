@@ -154,6 +154,6 @@ class __TwigTemplate_8e0dfb4fea0245d2f9c03556728dd15c extends Template
     </ul>
 </div>
 {% endblock %}
-", "home/index.html.twig", "C:\\xampp\\htdocs\\ALA\\DIF-examen-2023-maaskantje-6\\templates\\home\\index.html.twig");
+", "home/index.html.twig", "C:\\xampp\\htdocs\\ALA\\oefenen\\templates\\home\\index.html.twig");
     }
 }
