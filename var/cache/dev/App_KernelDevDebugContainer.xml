@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <container xmlns="http://symfony.com/schema/dic/services" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://symfony.com/schema/dic/services https://symfony.com/schema/dic/services/services-1.0.xsd">
   <parameters>
-<<<<<<< HEAD
-    <parameter key="kernel.project_dir">C:\xampp\htdocs\ALA\oefenen</parameter>
-    <parameter key="kernel.environment">dev</parameter>
-    <parameter key="kernel.runtime_environment">%env(default:kernel.environment:APP_RUNTIME_ENV)%</parameter>
-    <parameter key="kernel.debug">true</parameter>
-    <parameter key="kernel.build_dir">C:/xampp/htdocs/ALA/oefenen/var/cache/dev</parameter>
-    <parameter key="kernel.cache_dir">C:/xampp/htdocs/ALA/oefenen/var/cache/dev</parameter>
-    <parameter key="kernel.logs_dir">C:\xampp\htdocs\ALA\oefenen\var\log</parameter>
-=======
     <parameter key="kernel.project_dir">C:\Users\amark\OneDrive\Documenten\GitHub\oefenen</parameter>
     <parameter key="kernel.environment">dev</parameter>
     <parameter key="kernel.runtime_environment">%env(default:kernel.environment:APP_RUNTIME_ENV)%</parameter>
@@ -17,7 +8,6 @@
     <parameter key="kernel.build_dir">C:\Users\amark\OneDrive\Documenten\GitHub\oefenen\var\cache\dev</parameter>
     <parameter key="kernel.cache_dir">C:\Users\amark\OneDrive\Documenten\GitHub\oefenen\var\cache\dev</parameter>
     <parameter key="kernel.logs_dir">C:\Users\amark\OneDrive\Documenten\GitHub\oefenen\var\log</parameter>
->>>>>>> Admin_Dashboard
     <parameter key="kernel.bundles" type="collection">
       <parameter key="FrameworkBundle">Symfony\Bundle\FrameworkBundle\FrameworkBundle</parameter>
       <parameter key="DoctrineBundle">Doctrine\Bundle\DoctrineBundle\DoctrineBundle</parameter>
@@ -34,53 +24,6 @@
     </parameter>
     <parameter key="kernel.bundles_metadata" type="collection">
       <parameter key="FrameworkBundle" type="collection">
-<<<<<<< HEAD
-        <parameter key="path">C:\xampp\htdocs\ALA\oefenen\vendor\symfony\framework-bundle</parameter>
-        <parameter key="namespace">Symfony\Bundle\FrameworkBundle</parameter>
-      </parameter>
-      <parameter key="DoctrineBundle" type="collection">
-        <parameter key="path">C:\xampp\htdocs\ALA\oefenen\vendor\doctrine\doctrine-bundle</parameter>
-        <parameter key="namespace">Doctrine\Bundle\DoctrineBundle</parameter>
-      </parameter>
-      <parameter key="DoctrineMigrationsBundle" type="collection">
-        <parameter key="path">C:\xampp\htdocs\ALA\oefenen\vendor\doctrine\doctrine-migrations-bundle</parameter>
-        <parameter key="namespace">Doctrine\Bundle\MigrationsBundle</parameter>
-      </parameter>
-      <parameter key="DebugBundle" type="collection">
-        <parameter key="path">C:\xampp\htdocs\ALA\oefenen\vendor\symfony\debug-bundle</parameter>
-        <parameter key="namespace">Symfony\Bundle\DebugBundle</parameter>
-      </parameter>
-      <parameter key="TwigBundle" type="collection">
-        <parameter key="path">C:\xampp\htdocs\ALA\oefenen\vendor\symfony\twig-bundle</parameter>
-        <parameter key="namespace">Symfony\Bundle\TwigBundle</parameter>
-      </parameter>
-      <parameter key="WebProfilerBundle" type="collection">
-        <parameter key="path">C:\xampp\htdocs\ALA\oefenen\vendor\symfony\web-profiler-bundle</parameter>
-        <parameter key="namespace">Symfony\Bundle\WebProfilerBundle</parameter>
-      </parameter>
-      <parameter key="TwigExtraBundle" type="collection">
-        <parameter key="path">C:\xampp\htdocs\ALA\oefenen\vendor\twig\extra-bundle</parameter>
-        <parameter key="namespace">Twig\Extra\TwigExtraBundle</parameter>
-      </parameter>
-      <parameter key="SecurityBundle" type="collection">
-        <parameter key="path">C:\xampp\htdocs\ALA\oefenen\vendor\symfony\security-bundle</parameter>
-        <parameter key="namespace">Symfony\Bundle\SecurityBundle</parameter>
-      </parameter>
-      <parameter key="MonologBundle" type="collection">
-        <parameter key="path">C:\xampp\htdocs\ALA\oefenen\vendor\symfony\monolog-bundle</parameter>
-        <parameter key="namespace">Symfony\Bundle\MonologBundle</parameter>
-      </parameter>
-      <parameter key="MakerBundle" type="collection">
-        <parameter key="path">C:\xampp\htdocs\ALA\oefenen\vendor\symfony\maker-bundle\src</parameter>
-        <parameter key="namespace">Symfony\Bundle\MakerBundle</parameter>
-      </parameter>
-      <parameter key="SensioFrameworkExtraBundle" type="collection">
-        <parameter key="path">C:\xampp\htdocs\ALA\oefenen\vendor\sensio\framework-extra-bundle\src</parameter>
-        <parameter key="namespace">Sensio\Bundle\FrameworkExtraBundle</parameter>
-      </parameter>
-      <parameter key="EasyAdminBundle" type="collection">
-        <parameter key="path">C:\xampp\htdocs\ALA\oefenen\vendor\easycorp\easyadmin-bundle\src</parameter>
-=======
         <parameter key="path">C:\Users\amark\OneDrive\Documenten\GitHub\oefenen\vendor\symfony\framework-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\FrameworkBundle</parameter>
       </parameter>
@@ -126,7 +69,6 @@
       </parameter>
       <parameter key="EasyAdminBundle" type="collection">
         <parameter key="path">C:\Users\amark\OneDrive\Documenten\GitHub\oefenen\vendor\easycorp\easyadmin-bundle\src</parameter>
->>>>>>> Admin_Dashboard
         <parameter key="namespace">EasyCorp\Bundle\EasyAdminBundle</parameter>
       </parameter>
     </parameter>
