@@ -59,3 +59,5 @@ d8418b,::1,GET,https://localhost:8000/admin?crudAction=index&crudControllerFqcn=
 2cc894,::1,GET,https://localhost:8000/admin?crudAction=new&crudControllerFqcn=App%5CController%5CAdmin%5CUserCrudController&referrer=https%3A%2F%2Flocalhost%3A8000%2Fadmin%3FcrudAction%3Dindex%26crudControllerFqcn%3DApp%255CController%255CAdmin%255CUserCrudController,1675284437,,200
 c43667,::1,GET,https://localhost:8000/admin,1675284697,,200
 a34b30,::1,GET,https://localhost:8000/admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CUserCrudController,1675284701,,200
+630edd,::1,GET,https://localhost:8000/admin,1675284810,,200
+55bd21,::1,GET,https://localhost:8000/admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CUserCrudController,1675284812,,200
