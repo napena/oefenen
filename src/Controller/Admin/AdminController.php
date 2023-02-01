@@ -12,7 +12,7 @@ use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractDashboardController;
 class AdminController extends AbstractDashboardController
 {
         /**
-     * @Route("/admin")
+     * @Route("/admin", name="admin")
      */
 
     public function index(): Response
@@ -32,7 +32,7 @@ class AdminController extends AbstractDashboardController
     {
         return [
         MenuItem::linkToDashboard('Dashboard', 'fa fa-home'),
-            MenuItem::linkToCrud('Users', 'fa fa-tags', User::class),
+            MenuItem::linkToCrud('Users', 'fa fa-bars', User::class),
         ];
     }
 }
